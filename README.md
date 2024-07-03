@@ -15,12 +15,12 @@
 ## Usage
 
 ```sh
-pnpm i -D vite-local-token
+pnpm i -D vite-plugin-local-token
 ```
 
 ```ts
 // vite.config.ts
-import localToken from 'vite-plugin-html-template'
+import localToken from 'vite-plugin-local-token'
 
 // @see https://vitejs.dev/config/
 export default defineConfig({
