@@ -1,6 +1,6 @@
 {
-  "name": "vitelocaltoken",
-  "version": "1.0.1",
+  "name": "vite-plugin-local-token",
+  "version": "1.0.2",
   "description": "Vite plugin for local development. Set the token as local Cookie returned from SSO login.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
