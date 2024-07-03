@@ -1,6 +1,6 @@
 {
   "name": "vite-plugin-local-token",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Vite plugin for local development. Set the token as local Cookie returned from SSO login.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -12,7 +12,8 @@
     "url": "git+https://github.com/kekekgwj/vite-local-token"
   },
   "scripts": {
-    "build": "tsup src/index.ts --dts"
+    "build": "tsup src/index.ts --dts",
+    "pub": "npm run build && npm run publish"
   },
   "keywords": [
     "vite",

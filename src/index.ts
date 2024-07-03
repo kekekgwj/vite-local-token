@@ -1,12 +1,12 @@
 import { ViteDevServer } from "vite";
-import { PluginOption } from "vite";
+import { Plugin } from "vite";
 interface IOption {
   tokenKeyName: string;
   tokenQueryName: string;
   cookieControl?: string[];
 }
 
-export default function viteLocalTokenPlugin(options: IOption): PluginOption {
+export default function viteLocalTokenPlugin(options: IOption): Plugin {
   const { tokenKeyName, tokenQueryName, cookieControl } = options;
   return {
     name: "localToken",
